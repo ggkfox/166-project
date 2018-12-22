@@ -45,7 +45,7 @@ Open a python terminal and navigate to the root directory of the repository.
 ### Running Value Iteration
 Now, to run value iteration, put in the following syntax:
 
-python main.py <nameOfJsonFile>.json v <rewardDiscount> <livingReward> <iterations> 
+python main.py &lt;*nameOfJsonFile*>.json v &lt;*rewardDiscount*> &lt;*livingReward*> &lt;*iterations*> 
 
 E.G: **python main.py level1.json v 0.8 1 25**
 
@@ -59,7 +59,7 @@ E.G: **python main.py level1.json v 0.8 1 25**
 
 ###	Running Q-Learning
 
-python main.py <nameOfJsonFile>.json q <rewardDiscount> <livingReward> <learningRate> <epsilon>
+python main.py &lt;*nameOfJsonFile*>.json q &lt;*rewardDiscount*> &lt;*livingReward*> &lt;*learningRate*> &lt;*epsilon*>
 
 E.G: **python main.py level1.json q 0.5 -1 0.2 0.9**
 
